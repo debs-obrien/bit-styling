@@ -1,10 +1,10 @@
-import React from 'react';
+import React, {ReactNode} from 'react';
 import styles from './subtitle.module.scss';
 
 export type SubtitleProps = {
-
+  children?: ReactNode
 };
 
-export function Subtitle() {
-  return <p className={styles.subtitle}>Live Streams where I have appeared as a guest</p>;
+export function Subtitle({children}: SubtitleProps) {
+  return <p className={styles.subtitle}>{children}</p>;
 }

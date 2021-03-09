@@ -1,6 +1,6 @@
-import React from 'react';
-import { ThemeProvider } from '@debs-obrien/design.ui.theme-context';
-import { Card } from '@debs-obrien/design.ui.card';
+import React from "react"
+import { ThemeProvider } from "@debs-obrien/design.theme-context"
+import { Card } from "@debs-obrien/design.card"
 
 export function PeopleList() {
   return (
@@ -9,8 +9,8 @@ export function PeopleList() {
         <Card />
       </ThemeProvider>
       <ThemeProvider color="purple">
-      <Card />
+        <Card />
       </ThemeProvider>
     </div>
-  );
+  )
 }

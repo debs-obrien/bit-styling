@@ -34,7 +34,9 @@
     "packageManager": "teambit.dependencies/pnpm",
     "policy": {
       "dependencies": {
+        "@testing-library/react": "11.2.5",
         "@types/react": "17.0.2",
+        "chai": "4.3.3",
         "classnames": "2.2.6"
       },
       "peerDependencies": {
@@ -63,17 +65,17 @@
        **/
       "teambit.react/react": {}
     },
-
     "base-ui": {
-      "defaultScope": "debs-obrien.base-ui"
+      "defaultScope": "debs-obrien.base-ui",
+      "teambit.react/react": {}
     },
-
     "design": {
-      "defaultScope": "debs-obrien.design"
+      "defaultScope": "debs-obrien.design",
+      "teambit.react/react": {}
     },
-
     "people": {
-      "defaultScope": "debs-obrien.people"
+      "defaultScope": "debs-obrien.people",
+      "teambit.react/react": {}
     }
   }
 }

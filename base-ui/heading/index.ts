@@ -1,1 +1,1 @@
-export { Heading, HeadingProps } from "./heading"
+export * from "./heading";

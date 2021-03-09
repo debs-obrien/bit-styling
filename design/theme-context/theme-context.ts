@@ -4,11 +4,11 @@ import {
   textFontSize,
 } from "@debs-obrien/design.theme.size-definition"
 export type ThemeContextType = {
-  color: string
-  padding: string
-  backgroundColor: string
-  headingFontSize: string
-  textFontSize: string
+  color?: string
+  padding?: string
+  backgroundColor?: string
+  headingFontSize?: string
+  textFontSize?: string
 }
 
 export const ThemeContext = createContext<ThemeContextType>({
