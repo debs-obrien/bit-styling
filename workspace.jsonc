@@ -22,7 +22,7 @@
     /**
      * default scope for all components in workspace.
      **/
-    "defaultScope": "ranm8.debbie"
+    "defaultScope": "debs-obrien.styling"
   },
   /**
    * main configuration for component dependency resolution.

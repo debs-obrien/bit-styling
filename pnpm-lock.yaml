@@ -23,6 +23,8 @@ importers:
       react-dom: 16.13.1
   base-ui/button:
     specifiers: {}
+  design/button:
+    specifiers: {}
   design/card:
     specifiers: {}
   design/theme-context:
