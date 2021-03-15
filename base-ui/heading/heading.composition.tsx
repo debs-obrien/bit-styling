@@ -28,7 +28,7 @@ export const h5Heading = () => {
     <Heading element="h5">H5 Heading</Heading>
   </Theme>
 }
-export const h6Headiing = () => {
+export const h6Heading = () => {
   <Theme>
     <Heading element="h6">H6 Heading</Heading>
   </Theme>

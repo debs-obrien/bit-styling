@@ -3,25 +3,25 @@
 {
     "button": {
         "scope": "debs-obrien.design",
-        "version": "0.0.2",
+        "version": "0.0.3",
         "mainFile": "index.ts",
         "rootDir": "design/button"
     },
     "card": {
         "scope": "debs-obrien.design",
-        "version": "0.0.2",
+        "version": "0.0.3",
         "mainFile": "index.ts",
         "rootDir": "design/card"
     },
     "heading": {
         "scope": "debs-obrien.design",
-        "version": "0.0.1",
+        "version": "0.0.3",
         "mainFile": "index.ts",
         "rootDir": "design/heading"
     },
     "hero": {
-        "scope": "",
-        "version": "",
+        "scope": "debs-obrien.design",
+        "version": "0.0.3",
         "mainFile": "index.ts",
         "rootDir": "design/hero"
     },
@@ -32,14 +32,14 @@
         "rootDir": "base-ui/button"
     },
     "line-break": {
-        "scope": "",
-        "version": "",
+        "scope": "debs-obrien.design",
+        "version": "0.0.1",
         "mainFile": "index.ts",
         "rootDir": "design/line-break"
     },
     "people-list": {
         "scope": "debs-obrien.people",
-        "version": "0.0.2",
+        "version": "0.0.3",
         "mainFile": "index.ts",
         "rootDir": "people/people-list"
     },
@@ -51,13 +51,13 @@
     },
     "subtitle": {
         "scope": "debs-obrien.design",
-        "version": "0.0.1",
+        "version": "0.0.2",
         "mainFile": "index.ts",
         "rootDir": "design/subtitle"
     },
     "text/heading": {
         "scope": "debs-obrien.base-ui",
-        "version": "0.0.1",
+        "version": "0.0.3",
         "mainFile": "index.ts",
         "rootDir": "base-ui/heading"
     },
