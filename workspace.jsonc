@@ -22,7 +22,7 @@
     /**
      * default scope for all components in workspace.
      **/
-    "defaultScope": "debs-obrien.styling"
+    "defaultScope": "debs-obrien.base"
   },
   /**
    * main configuration for component dependency resolution.
@@ -34,10 +34,14 @@
     "packageManager": "teambit.dependencies/pnpm",
     "policy": {
       "dependencies": {
+        "@teambit/react-router": "0.0.344",
         "@testing-library/react": "11.2.5",
         "@types/react": "17.0.2",
+        "@types/react-router": "5.1.13",
         "chai": "4.3.3",
-        "classnames": "2.2.6"
+        "classnames": "2.2.6",
+        "react-router": "5.2.0",
+        "react-router-dom": "5.2.0"
       },
       "peerDependencies": {
         "react": "16.13.1",
@@ -59,10 +63,7 @@
     /**
      * "*" is a special rule which applied on all components in the workspace.
      **/
-    "{ui/*}": {
-      /**
-       * uncomment to apply the react environment on all components.
-       **/
+    "*": {
       "teambit.react/react": {}
     },
     "base-ui": {
@@ -71,6 +72,10 @@
     },
     "design": {
       "defaultScope": "debs-obrien.design",
+      "teambit.react/react": {}
+    },
+    "styling": {
+      "defaultScope": "debs-obrien.styling",
       "teambit.react/react": {}
     },
     "people": {

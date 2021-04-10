@@ -1,0 +1,26 @@
+---
+labels: ['react', 'typescript', 'breadcrumb']
+description: 'A Breadcrumb component.'
+---
+
+import { Breadcrumb } from './breadcrumb';
+import {MemoryRouter as Router,} from 'react-router-dom'
+
+Breadcrumb example:
+
+A Breadcrumb component using React Router and passing in the link it came from as well as the page title
+
+Code Snippet:
+```js
+<Router>
+    <Breadcrumb title="live streams" link="resources" />
+</Router>
+```
+
+
+Live Playground:
+```js live
+<Router>
+    <Breadcrumb title="live streams" link="resources" />
+</Router>
+```
